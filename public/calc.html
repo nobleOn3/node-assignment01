@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>Postal Rate Calculator</h1>
+	<form action="/compute">
+		<select name="type">
+			<option value="Letter (Metered)">Letter (Metered)</option>
+			<option value="Letter (Stamped)">Letter (Stamped)</option>
+			<option value="Large Envelope (Flat)">Large Envelope (Flat)</option>
+			<option value="First-Class Package Service">First-Class Package Service</option>
+		</select>
+		<input type="textbox" placeholder="Weight in ounces" name="weight"/>
+		<p>Please keep in mind that letters must be less than or equal to 3.5 ounces and all other packages must be less than or equal to 13 ounces.</p>
+		<br/>
+		<input type="submit" value="Compute"/>
+	</form>
+</body>
+</html>
